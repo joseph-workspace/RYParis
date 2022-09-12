@@ -32,7 +32,6 @@
 }
 .charcuterie {
     width: 100%;
-    /* min-height: 900px; */
     height: 550px;
     background-image: url('../images/hero-image.jpg');
     background-size: cover;
@@ -89,7 +88,6 @@
 .printer {
     display: inline-block;
     position: relative;
-    /* background-color: grey; */
     background-image: url('../images/printer-icon.jpeg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -149,7 +147,6 @@
     display: flex;
     justify-content: space-around;
     flex-direction:column;
-    /* align-items: center; */
     width: 95%;
 }
 .description-1 {
@@ -157,12 +154,10 @@
 }
 .trioFlex {
     height: 200px;
-    /* position: relative; */
     display: flex;
     justify-content: space-around;
     padding-top: 55px;
     padding-bottom: 55px;
-    /* padding: 55px; */
     width: 100%;
 }
 .quadBackground {
