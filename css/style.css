@@ -50,7 +50,8 @@
     transform: scale(1.15);
 }
 .hamburger {
-    height: 650px;
+    min-height: 650px;
+    height: 95vh;
     width: 100%;
     background-image: url('../images/bengal-burger.jpg');
     background-size: cover;
@@ -58,7 +59,7 @@
 }
 .burgerBox {
     bottom: 5%;
-    left: 33%;
+    left: 35%;
 }
 .flexRecipeInfo {
     background-color: rgb(160, 166, 171);
@@ -84,6 +85,9 @@
 }
 .saveBar {
     width: 100%;
+}
+.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .printer {
     display: inline-block;
@@ -119,7 +123,7 @@
     justify-content: space-around;
     background-color: rgb(190, 186, 186);
     color: rgb(76, 74, 74);
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-left: 2.5%;
     padding-right: 2.5%;
@@ -129,10 +133,15 @@
     width: 35%;
     text-align: left;
     flex-grow: 1;
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .directions {
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     width: 65%;
     flex-grow: 2;
+    height: 100vh;
 }
 .outerFlex {
     display: flex;
@@ -231,6 +240,8 @@ ul {
 }
 ol {
     padding: 0px;
+    height: 100vh;
+    /* overflow: hidden; */
 }
 th {
     font-size: 1.5em;

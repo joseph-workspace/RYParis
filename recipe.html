@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Meal Ideas</title>
         <link href="./css/style.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/8b9253969f.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
     </head>
     <body>
         <div class="toolbar navBar">
@@ -21,11 +22,13 @@
         <div class="flexRecipeInfo">
             <div class="innerFlex">
                 <table>
-                    <theader>
+                    <thead>
                         <tr>
                             <th>Time</th>
+                            <th></th>
+                            <th></th>
                         </tr>
-                    </theader>
+                    </thead>
                     <tbody>
                         <tr>
                             <td><span>Level:</span> Easy</td>
@@ -36,19 +39,20 @@
                         <tr>
                             <td><span>Total:</span> 25 min</td>
                             <td><span>Cook:</span> 15 min</td>
+                            <td></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
         <div class="customerInteraction">
-            <h2>Bengal Burger</h2>
+            <h2 class="title">BENGAL BURGER</h2>
             <i class="fa-solid fa-star star"></i>
             <i class="fa-solid fa-star star"></i>
             <i class="fa-solid fa-star star"></i>
             <i class="fa-solid fa-star star"></i>
             <i class="fa-solid fa-star star"></i>
-            26 Reviews
+            <span style="font-size:15px;">26 Reviews</span>
             <div class="saveBar">
                 <button class="saveRecipe" type="submit">Save Recipe</button>
                 <div class="printer"></div>
@@ -72,7 +76,7 @@
         <div class="wrapper">
             <div class="recipeFlex">
                 <div class="recipe">
-                    <h1>Ingredients</h1>
+                    <h2>Ingredients</h2>
                     <ul>
                         <li>24 ounces ground chuck</li>
                         <li>1 teaspoon kosher salt</li>
@@ -96,7 +100,7 @@
                     </ul>
                 </div>
                 <div class="directions">
-                    <h1>Directions</h1>
+                    <h2>Directions</h2>
                     <ol>
                         <li>Preheat the oven to 450 degrees F. Place a roasting
                             rack on a foil-lined baking sheet in the oven.
@@ -139,7 +143,8 @@
                             When cooking on a countertop grill, turn on the grill, then place
                             burgers on the heated grill.
                         </li>
-                        <h3>Timing for a countertop grill:</h3>
+                        <br>
+                        <span style="font-weight:bold;">Timing for a countertop grill:</span>
                         <li>
                             For Medium-Rare: Cook for 3 minutes covered and then unplug the
                             machine and continue to cook covered for 2 to 3 more minutes.
